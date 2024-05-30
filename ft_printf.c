@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 17:24:20 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/05/30 18:51:33 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/05/30 20:54:54 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,10 +59,10 @@ int	ft_printf(char const *str, ...)
 	return (ret);
 }
 
-#include <stdio.h>
-int main()
-{
-	int rlen1, rlen2;
+// #include <stdio.h>
+// int main()
+// {
+// 	int rlen1, rlen2;
 	// char	*ptr = "Hola";
 	// rlen1 = ft_printf("Hello char, %c\n", 'A');
 	// rlen2 = printf("Hello char, %c\n", 'A');
@@ -100,5 +100,5 @@ int main()
 	// rlen2 = printf("Hello percent, %%\n");
 	// printf("ft_printf returned: %d\n", rlen1);
 	// printf("printf returned: %d\n", rlen2);
-	return 0;
-}
+// 	return 0;
+// }
