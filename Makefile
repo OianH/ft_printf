@@ -6,7 +6,7 @@
 #    By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/27 16:17:22 by oiahidal          #+#    #+#              #
-#    Updated: 2024/05/27 16:28:52 by oiahidal         ###   ########.fr        #
+#    Updated: 2024/05/30 17:07:24 by oiahidal         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRCS = \
 	ft_printf.c \
 	prints_1.c \
 	prints_2_dpends.c \
+	unitoa.c  \
 	
 all: $(NAME)
 

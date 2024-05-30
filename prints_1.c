@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 10:25:04 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/05/29 11:35:19 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/05/30 11:44:52 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	print_hex(unsigned long n, char id)
 	int	ret;
 
 	ret = 0;
-	if (n > 15)
+	if (n >= 16)
 		ret = print_hex(n / 16, id);
 	if ((id == 'x') || (id == 'p'))
 		ret += print_char("0123456789abcdef"[n % 16]);

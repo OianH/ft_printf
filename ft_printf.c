@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 17:24:20 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/05/29 11:35:50 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/05/30 18:51:33 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,4 +57,48 @@ int	ft_printf(char const *str, ...)
 	}
 	va_end(list);
 	return (ret);
+}
+
+#include <stdio.h>
+int main()
+{
+	int rlen1, rlen2;
+	// char	*ptr = "Hola";
+	// rlen1 = ft_printf("Hello char, %c\n", 'A');
+	// rlen2 = printf("Hello char, %c\n", 'A');
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello string, %s\n", "world");
+	// rlen2 = printf("Hello string, %s\n", "world");
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello hex, %x\n", 25555555);
+	// rlen2 = printf("Hello hex, %x\n", 25555555);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello ptr, %p\n", ptr);
+	// rlen2 = printf("Hello ptr, %p\n", ptr);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello HEX, %X\n", 255);
+	// rlen2 = printf("Hello HEX, %X\n", 255);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello dig, %d\n", 777);
+	// rlen2 = printf("Hello dig, %d\n", 777);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello int, %i\n", 777);
+	// rlen2 = printf("Hello int, %i\n", 777);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello uns, %u\n",0);
+	// rlen2 = printf("Hello uns, %u\n", 0);
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	// rlen1 = ft_printf("Hello percent, %%\n");
+	// rlen2 = printf("Hello percent, %%\n");
+	// printf("ft_printf returned: %d\n", rlen1);
+	// printf("printf returned: %d\n", rlen2);
+	return 0;
 }

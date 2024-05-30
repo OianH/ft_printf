@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 16:04:25 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/05/29 11:36:02 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/05/30 17:05:30 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	print_unnumber(unsigned int n)
 	char	*str;
 	int		ret;
 
-	str = ft_itoa((int)n);
+	str = ft_unitoa(n);
 	ret = ft_strlen(str);
 	write(1, str, ft_strlen(str));
 	free (str);
