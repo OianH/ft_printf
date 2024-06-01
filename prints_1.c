@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 10:25:04 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/05/30 11:44:52 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/06/01 13:24:07 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ int	print_number(int n)
 	return (ret);
 }
 
-int	print_hex(unsigned long n, char id)
+int	print_hex(unsigned int n, char id)
 {
 	int	ret;
 
