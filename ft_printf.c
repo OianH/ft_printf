@@ -6,7 +6,7 @@
 /*   By: oiahidal <oiahidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 17:24:20 by oiahidal          #+#    #+#             */
-/*   Updated: 2024/06/01 14:30:34 by oiahidal         ###   ########.fr       */
+/*   Updated: 2024/10/31 13:05:51 by oiahidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,19 +19,19 @@ int	check_id(char id, va_list list)
 	ret = 0;
 	if (id == 'c')
 		ret += print_char(va_arg(list, int));
-	else if (id == 's')
+	if (id == 's')
 		ret = print_string(va_arg(list, char *));
-	else if (id == 'p')
-		ret += print_pointer(va_arg(list, size_t), id);
-	else if (id == 'i' || id == 'd')
+	if (id == 'p')
+		ret += print_pointer(va_arg(list, unsigned long), id);
+	if (id == 'i' || id == 'd')
 		ret = print_number(va_arg(list, int));
-	else if (id == 'u')
+	if (id == 'u')
 		ret = print_unnumber(va_arg(list, unsigned int));
-	else if (id == 'x')
+	if (id == 'x')
 		ret += print_hex(va_arg(list, unsigned int), id);
-	else if (id == 'X')
+	if (id == 'X')
 		ret = print_hex(va_arg(list, unsigned int), id);
-	else if (id == '%')
+	if (id == '%')
 		ret = print_char('%');
 	return (ret);
 }
